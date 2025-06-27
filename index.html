@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourBrand Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="text-gray-800 bg-white">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white fixed top-0 w-full z-50 shadow">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold">YourBrand</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#home" class="hover:text-yellow-300">Home</a>
+        <a href="#features" class="hover:text-yellow-300">Features</a>
+        <a href="#pricing" class="hover:text-yellow-300">Pricing</a>
+        <a href="#testimonials" class="hover:text-yellow-300">Testimonials</a>
+        <a href="#contact" class="hover:text-yellow-300">Contact</a>
+      </nav>
+      <div class="flex space-x-4">
+        <a href="login.html" class="bg-white text-blue-600 font-semibold px-4 py-2 rounded hover:bg-gray-100 transition">Login</a>
+        <a href="signup.html" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-300 transition">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-32 pb-20 bg-gray-100">
+    <div class="container mx-auto flex flex-col-reverse md:flex-row items-center px-6">
+      <div class="md:w-1/2 text-center md:text-left mt-10 md:mt-0">
+        <h2 class="text-4xl font-bold mb-4">Grow Your Business Faster</h2>
+        <p class="text-lg text-gray-600 mb-6">Launch your product or service faster and better with our professional tools.</p>
+        <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-500">Start Free Trial</a>
+      </div>
+      <div class="md:w-1/2">
+        <img src="1.jpg" alt="Hero Image" class="rounded-lg shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-16 px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold">Features You'll Love</h2>
+    </div>
+    <div class="container mx-auto grid md:grid-cols-3 gap-8 text-center">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">⚡ Fast Performance</h3>
+        <p class="text-gray-600">Optimized code for fast load times and smooth experience.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">📱 Responsive Design</h3>
+        <p class="text-gray-600">Looks great on mobile, tablet, and desktop screens.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">⚙ Easy Customization</h3>
+        <p class="text-gray-600">Easily change colors, layout, and branding to fit your style.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="bg-gray-100 py-20 px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold">Choose Your Plan</h2>
+      <p class="text-gray-600">Simple and flexible pricing</p>
+    </div>
+    <div class="container mx-auto grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-lg shadow text-center">
+        <h3 class="text-xl font-bold mb-4">Basic</h3>
+        <p class="text-3xl font-bold mb-4">$9<span class="text-base">/mo</span></p>
+        <ul class="text-gray-600 mb-6 space-y-2">
+          <li>✔ 1 Project</li>
+          <li>✔ 5 GB Storage</li>
+          <li>✔ Email Support</li>
+        </ul>
+        <a href="#contact" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-500">Choose Plan</a>
+      </div>
+      <div class="bg-indigo-600 text-white p-8 rounded-lg shadow-lg text-center transform scale-105">
+        <h3 class="text-xl font-bold mb-4">Pro</h3>
+        <p class="text-3xl font-bold mb-4">$29<span class="text-base">/mo</span></p>
+        <ul class="mb-6 space-y-2">
+          <li>✔ Unlimited Projects</li>
+          <li>✔ 50 GB Storage</li>
+          <li>✔ Priority Support</li>
+        </ul>
+        <a href="#contact" class="bg-white text-indigo-600 px-6 py-2 rounded font-semibold hover:bg-gray-200">Best Value</a>
+      </div>
+      <div class="bg-white p-8 rounded-lg shadow text-center">
+        <h3 class="text-xl font-bold mb-4">Enterprise</h3>
+        <p class="text-3xl font-bold mb-4">Custom</p>
+        <ul class="text-gray-600 mb-6 space-y-2">
+          <li>✔ Unlimited Everything</li>
+          <li>✔ Dedicated Manager</li>
+          <li>✔ SLA & Custom Integrations</li>
+        </ul>
+        <a href="#contact" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-500">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="bg-white py-20 px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold">What Our Clients Say</h2>
+    </div>
+    <div class="container mx-auto grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded-lg shadow">
+        <p class="text-gray-700 mb-4">“This platform made our workflow so much better. Love it!”</p>
+        <div class="flex items-center space-x-4">
+          <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+          <div>
+            <h4 class="font-bold">John Smith</h4>
+            <p class="text-sm text-gray-600">CEO, TechWorld</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow">
+        <p class="text-gray-700 mb-4">“Fast, clean and reliable. Great experience so far.”</p>
+        <div class="flex items-center space-x-4">
+          <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/45.jpg" alt="">
+          <div>
+            <h4 class="font-bold">Alice Ray</h4>
+            <p class="text-sm text-gray-600">Designer, PixelPro</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow">
+        <p class="text-gray-700 mb-4">“Highly recommended. Easy to use and great support.”</p>
+        <div class="flex items-center space-x-4">
+          <img class="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/55.jpg" alt="">
+          <div>
+            <h4 class="font-bold">Mark Lee</h4>
+            <p class="text-sm text-gray-600">CTO, DevFlow</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action / Contact -->
+  <section id="contact" class="bg-blue-600 text-white py-16 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to get started?</h2>
+    <p class="text-lg mb-6">Sign up today and boost your productivity with our tools.</p>
+    <a href="signup.html" class="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition">Join Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6 text-center">
+    <p>&copy; 2025 YourBrand. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
